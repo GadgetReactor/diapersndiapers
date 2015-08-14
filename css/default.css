@@ -22,14 +22,14 @@
    z-index: 99999;
    height: 100%;
 }
-#status  {    
+#status  {
    position: absolute;
    left: 50%;
    top: 50%;
    width: 64px;
    height: 64px;
-   margin: -32px 0 0 -32px;  
-   padding: 0;    
+   margin: -32px 0 0 -32px;
+   padding: 0;
 }
 
 /* ------------------------------------------------------------------
@@ -288,7 +288,7 @@ hr { border: solid #E8E8E8; border-width: 1px 0 0; clear: both; margin: 11px 0 3
 a, a:visited {
    text-decoration: none;
    outline: 0;
-   color: #197C28;
+   color: #69C3FF;
 
    -webkit-transition: color .3s ease-in-out;
    -moz-transition: color .3s ease-in-out;
@@ -349,7 +349,7 @@ li p { }
    color: #313131;
 }
 .stats-tabs li a:hover {
-   color: #197C28;
+   color: #69C3FF;
 }
 .stats-tabs li a b {
 	display: block;
@@ -361,7 +361,7 @@ li p { }
 
 /* definition list */
 dl { margin: 12px 0; }
-dt { margin: 0; color: #197C28; }
+dt { margin: 0; color: #69C3FF; }
 dd { margin: 0 0 0 20px; }
 
 /* Lining Definition Style Markup */
@@ -433,7 +433,7 @@ dd { margin: 0 0 0 20px; }
 }
 .pagination .current,
 .pagination .current:hover {
-   background-color: #197C28;
+   background-color: #69C3FF;
    color: #fff;
 }
 .pagination .inactive,
@@ -465,16 +465,16 @@ input[type="submit"],
 input[type="reset"],
 input[type="button"] {
    font: 14px/24px 'montserrat-bold', sans-serif;
-   background: #197C28;
+   background: #69C3FF;
    color: #fff;
-   display: inline-block;   
+   display: inline-block;
 	text-decoration: none;
-   letter-spacing: 0;   
+   letter-spacing: 0;
 	padding: 12px 20px;
 	margin-bottom: 18px;
    border: none;
    cursor: pointer;
-   height: auto;  
+   height: auto;
 
    -webkit-transition: all .2s ease-in-out;
 	-moz-transition: all .2s ease-in-out;
@@ -499,7 +499,7 @@ button:active,
 input[type="submit"]:active,
 input[type="reset"]:active,
 input[type="button"]:active {
-   background: #197C28;
+   background: #69C3FF;
    color: #fff;
 }
 
@@ -589,13 +589,13 @@ input[type="checkbox"] { display: inline; }
    color: #B3B7BC;
 }
 :-moz-placeholder { /* Firefox 18- */
-   color: #B3B7BC;  
+   color: #B3B7BC;
 }
 ::-moz-placeholder {  /* Firefox 19+ */
-   color: #B3B7BC;  
+   color: #B3B7BC;
 }
-:-ms-input-placeholder { 
-   color: #B3B7BC;  
+:-ms-input-placeholder {
+   color: #B3B7BC;
 }
 .placeholder {
 	color: #B3B7BC !important;
@@ -741,7 +741,7 @@ properly.
       padding: 0;
 	}
    .column, .columns {
-	   width: auto !important;      
+	   width: auto !important;
 	   float: none;
 	   margin-left: 0;
 	   margin-right: 0;
@@ -816,7 +816,3 @@ properly.
 	margin-right: auto !important;
 	text-align: center !important;
 }
-
-
-
-
